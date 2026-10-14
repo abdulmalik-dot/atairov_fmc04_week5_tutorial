@@ -1,2 +1,6 @@
 queue = ["Aziza", "Bekzod"]
-queue[2] = "Malika"
+queue.append("Malika")
+entered = queue.pop(0)
+
+print(f"Entered: {entered}")
+print(f"Remaining ques: {queue}")
